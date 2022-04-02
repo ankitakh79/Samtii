@@ -1,0 +1,516 @@
+* {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  width: 250px;
+  height: 200px;
+  /* margin-top: 120px; */
+  margin-right: 10px;
+}
+.service {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(samatii/plate.jpg);
+  background-repeat: no-repeat;
+  background-size: 1535px 900px;
+  opacity: 0.9;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  top: 10;
+  /* position: fixed; */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 150px;
+  overflow: hidden;
+  z-index: 300;
+}
+.nav-list2 {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-list2 {
+  margin-left: 200px;
+}
+.nav-list2,
+.nav-items {
+  /* margin-top: 150px; */
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  padding: 25px 25px;
+}
+a:hover {
+  color: #fcda9a;
+}
+.menu {
+  display: none;
+}
+.menu-line {
+  width: 20px;
+  height: 3px;
+  background-color: white;
+  margin-bottom: 4px;
+  /* 
+  padding-top: 2px;
+   */
+}
+
+nav.scrolled {
+  background: black;
+}
+
+.title-3 {
+  padding-top: 250px;
+  padding-bottom: 450px;
+  text-align: center;
+}
+.title-3 h1 {
+  font-size: 50px;
+  font-family: "Montez", cursive;
+  color: #fcda9a;
+  animation-name: example2;
+  animation-duration: 1s;
+}
+@keyframes example2 {
+  0% {
+    padding-top: 40px;
+  }
+  100% {
+    padding-top: 30px;
+  }
+}
+.title-3 p {
+  font-size: 60px;
+  font-family: "Suranna", serif;
+  color: white;
+}
+.title-3 img {
+  width: 30%;
+  height: 30%;
+}
+.service-desc,
+.service-desc1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 170px;
+  margin-right: 170px;
+}
+.desc-img,
+.desc-img1 {
+  width: 500px;
+  height: 500px;
+}
+.service-desc1 {
+  margin-top: 70px;
+}
+.desc-container,
+.desc-container1 {
+  text-align: center;
+  margin-left: 50px;
+}
+.desc-container h1,
+.desc-container1 h1 {
+  font-size: 50px;
+  font-family: "Montez", cursive;
+  color: black;
+  margin-top: 70px;
+}
+
+.desc-container h2 {
+  color: black;
+  padding-bottom: 10px;
+  font-size: 25px;
+  padding-top: 10px;
+}
+.desc-container1 h2 {
+  color: black;
+  padding-bottom: 9px;
+  font-size: 25px;
+  padding-top: 10px;
+}
+.desc-list {
+  display: flex;
+  flex-direction: row;
+  margin-left: 130px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+.desc-list h4 {
+  padding-left: 20px;
+  padding-top: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+.line,
+.line1 {
+  margin-left: 222px;
+  width: 180px;
+  border: 1px solid black;
+}
+/* .line1 {
+  margin-left: 230px;
+  width: 170px;
+  border: 1px solid #b3a577;
+} */
+.desc-container p,
+.desc-container1 p {
+  margin-top: 30px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+.desc-container1 p {
+  margin-right: 30px;
+}
+.service-container {
+  margin-top: 50px;
+  background-image: url(samatii/kachori.jpeg);
+  background-repeat: no-repeat;
+  background-size: 1535px 800px;
+}
+.service-container h1 {
+  padding-top: 250px;
+  font-family: "Montez", cursive;
+  color: #fcda9a;
+  font-size: 50px;
+  text-align: center;
+}
+.service-container p {
+  text-align: center;
+  padding-top: 5px;
+
+  color: white;
+  font-size: 34px;
+  /* font-family: "Montserrat", sans-serif; */
+}
+.service-container img {
+  margin-left: 600px;
+  padding-bottom: 200px;
+}
+.services {
+  text-align: center;
+}
+.services h1 {
+  margin-top: 60px;
+  font-size: 40px;
+  font-family: "Montez", cursive;
+  color: black;
+}
+.services h3 {
+  color: black;
+  font-size: 30px;
+  font-family: "Suranna", serif;
+}
+.line3 {
+  margin-left: 600px;
+  width: 330px;
+  border: 1px solid black;
+}
+.services-desc-list {
+  display: flex;
+  flex-direction: row;
+  margin-left: 350px;
+}
+.services-desc-list h4 {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+.services h2 {
+  padding-top: 22px;
+  color: black;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+}
+.services p {
+  padding-top: 18px;
+  color: black;
+  font-size: 23px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.footer {
+  background-image: url(samatii/bgg.jpg);
+  background-repeat: no-repeat;
+  background-size: 1540px 600px;
+  margin-top: 150px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.footer-logo {
+  padding-top: 50px;
+}
+.mobile,
+.mail {
+  padding-top: 15px;
+  color: #b3a577;
+}
+.address,
+.address1,
+.address2,
+.mn,
+.em {
+  padding-top: 8px;
+  color: rgb(201, 199, 199);
+}
+.em {
+  padding-bottom: 60px;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  display: none;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 600px) {
+  .logo {
+    /* margin-top: 10px; */
+    width: 100px;
+    height: 100px;
+    margin-right: 380px;
+    /* margin-left: 20px; */
+  }
+  nav {
+    flex-direction: column;
+    position: sticky;
+    /* width: 100%; */
+    top: 0;
+    overflow: visible;
+    z-index: 0;
+  }
+  .nav-list2 {
+    display: none;
+  }
+  #item1 {
+    margin-top: 210px;
+  }
+  #item2 {
+    margin-top: 10px;
+  }
+
+  .nav-list2 {
+    margin-right: 200px;
+  }
+  .nav-list2 .nav-items {
+    display: block;
+    text-align: center;
+    width: 500px;
+  }
+
+  .active {
+    display: block;
+  }
+
+  nav.scrolled {
+    background: black;
+    /* height: 50px;
+    width: 100px; */
+  }
+  .menu {
+    display: block;
+    position: absolute;
+    right: 83px;
+    top: 40px;
+    border: 2px solid #fff;
+    padding: 8px 8px 6px 8px;
+    /*  */
+  }
+
+  .service {
+    width: 500px;
+    height: 500px;
+    background-size: 100% 100%;
+  }
+  .title-3 {
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+  @keyframes example {
+    0% {
+      padding-top: 70px;
+    }
+    100% {
+      padding-top: 50px;
+    }
+  }
+  .title-3 h1 {
+    margin-right: 50px;
+    padding-top: 10px;
+    font-size: 34px;
+  }
+  .title-3 p {
+    margin-left: 10px;
+    margin-right: 50px;
+    font-size: 36px;
+  }
+  .title-3 img {
+    margin-right: 50px;
+    width: 45%;
+    height: 45%;
+  }
+  .service-desc {
+    flex-direction: column;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 60px;
+  }
+  .service-desc1 {
+    flex-direction: column-reverse;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .desc-img,
+  .desc-img1 {
+    width: 300px;
+    height: 300px;
+  }
+  .desc-container,
+  .desc-container1 {
+    margin-left: 10px;
+  }
+  .desc-container h1,
+  .desc-container1 h1 {
+    font-size: 33px;
+
+    margin-top: 40px;
+  }
+  .desc-container h2 {
+    color: black;
+    padding-bottom: 10px;
+    font-size: 25px;
+    padding-top: 9px;
+  }
+  .desc-container1 h2 {
+    color: black;
+    padding-bottom: 9px;
+    font-size: 25px;
+    padding-top: 10px;
+  }
+  .desc-list {
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  .desc-list h4 {
+    padding-left: 1px;
+    padding-top: 13px;
+  }
+  .line,
+  .line1 {
+    margin-left: 20px;
+    width: 230px;
+  }
+  .desc-container p,
+  .desc-container1 p {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .service-container {
+    background-size: 100% 100%;
+    width: 450px;
+    height: 500px;
+  }
+  .service-container h1 {
+    padding-top: 180px;
+    font-size: 35px;
+  }
+  .service-container p {
+    padding-top: 15px;
+    font-size: 28px;
+  }
+  .services h1 {
+    margin-top: 60px;
+    font-size: 35px;
+  }
+  .services h3 {
+    font-size: 25px;
+  }
+  .line3 {
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 270px;
+  }
+  .services-desc-list {
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .services-desc-list h4 {
+    display: none;
+  }
+  .services h2 {
+    padding-top: 22px;
+    font-size: 22px;
+  }
+  .services p {
+    padding-top: 18px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .footer {
+    margin-top: 70px;
+  }
+  .footer-logo img {
+    width: 100px;
+    height: 120px;
+  }
+  /* .dot {
+    height: 5px;
+    width: 5px;
+  } */
+}

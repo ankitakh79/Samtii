@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gwendolyn&family=Montez&family=Montserrat:wght@200;300&family=PT+Sans&family=Poppins:wght@300&family=Rubik:wght@700&family=Suranna&display=swap" rel="stylesheet">
+    <title>Contact Page</title>
+</head>
+<body>
+    <div class="contact">
+    <nav>
+        <img class="logo" width="15%" height="10%" src="samatii/logo.png" alt="">
+        <div>
+        <ul class="nav-list3" id="navi-list3" >
+            <li class="nav-items" id="item1"><a href="index.html">Home</a></li>
+            <li class="nav-items" id="item2"><a href="about.html">About Us</a> </li>
+            <li class="nav-items" id="item2"><a href="service.html">Service</a></li>
+            
+            <li class="nav-items" id="item2"><a href="moment.html">Moments</a></li>
+            <li class="nav-items" id="item2"><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="menu" id="toggle-button">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+  
+        </div> 
+    </div>
+    </nav>
+    <div class="title-1">
+        <h1 >CONTACT US</h1>
+            <p>SEND US A MESSAGE</p>
+            <img  src="samatii/spoon.png" alt="">
+        </div>
+</div>
+<div class="contact2">
+  <h1>Contact Information</h1>
+  <hr class="STL"/>
+  <h3 class="con-text">Our hearts are connected with your's by food but we are still a phone call away!</h3>
+    <h3>Get to us via phone, e-mail or telefax and we will be happy to assist you.</h3>
+    <div class="contact-Img">
+      <img width="30px" height="30px" src="samatii/work/address-icon.png" alt="">
+      <div class="contact-add">
+      <p class="address">Sammati Caterers,Wajge Ali.</p>
+            <p class="address">Narayangaon.</p>
+            <p class="address">Pune 410504.</p>
+          </div>
+    </div>
+    <div class="phno">
+      <img width="30px" height="30px"  src="samatii/work/res-phone-icon.png" alt="">
+      <div class="c-phno">
+        <p>9860208039</p>
+        <p>9975498936</p>
+      </div>
+    </div>
+    <div class="email">
+      <img width="30px" height="30px"  src="samatii/work/email-icon.png" alt="">
+      <div class="c-email">
+        <p>sammati123@gmail.com</p>
+        <p>sammatii77@gmail.com</p>
+      </div>
+    </div>
+    
+    <div><h1 class="our-Social">Our Socials</h1></div>
+    <hr class="STL2"/>
+    <div class="social-icon">
+      <a href=""><img width="30px" height="30px" src="samatii/work/tw-icon.png" alt=""></a>
+      <a href=""><img width="30px" height="30px" src="samatii/work/ig-icon.jpg" alt=""></a>
+      <a href=""><img width="30px" height="30px" src="samatii/work/fc-icon.png" alt=""></a>
+    </div>
+</div>
+
+<div class="end-text">
+  <h1>Because we at Sammati Caterers know you don't want to regret saying</h1>
+    <h1>‘Oh! I could have eaten a bit more...’</h1>
+</div>
+<hr class="STL3"/>
+</body>
+<script>
+    var navbar = document.querySelector('nav')
+
+window.onscroll = function() {
+
+  // pageYOffset or scrollY
+  if (window.pageYOffset > 800) {
+    navbar.classList.add('scrolled')
+  } else {
+    navbar.classList.remove('scrolled')
+  }
+}
+
+const toggleButton3 = document.getElementById('toggle-button');
+const naviList3 = document.getElementById('navi-list3');
+
+
+toggleButton3.addEventListener('click',() => {
+    naviList3.classList.toggle('active');
+})
+</script>
+</html>

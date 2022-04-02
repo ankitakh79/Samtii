@@ -1,0 +1,351 @@
+* {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  /* margin-right: 100px; */
+  width: 250px;
+  height: 200px;
+  /* margin-top: 120px; */
+  margin-right: 10px;
+}
+.contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("samatii/buffet.jpg");
+  background-size: 1520px 900px;
+  background-repeat: no-repeat;
+}
+/* nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  margin-left: 3px;
+  margin-top: 78px;
+}
+nav ul li {
+  margin-right: 95px;
+  font-size: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav.scrolled {
+  background: #0a0a0a;
+} */
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 10;
+  /* position: fixed; */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 150px;
+  overflow: hidden;
+  z-index: 300;
+}
+.nav-list3 {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-list3 {
+  margin-left: 200px;
+}
+.nav-list3,
+.nav-items {
+  /* margin-top: 150px; */
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  padding: 25px 25px;
+}
+a:hover {
+  color: #fcda9a;
+}
+.menu {
+  display: none;
+}
+.menu-line {
+  width: 20px;
+  height: 3px;
+  background-color: white;
+  margin-bottom: 4px;
+  /* 
+  padding-top: 2px;
+   */
+}
+
+nav.scrolled {
+  background: black;
+}
+
+.title-1 {
+  padding-top: 250px;
+  padding-bottom: 350px;
+  text-align: center;
+  animation-name: example;
+  animation-duration: 1s;
+}
+@keyframes example {
+  0% {
+    padding-top: 270px;
+  }
+  100% {
+    padding-top: 250px;
+  }
+}
+.title-1 h1 {
+  font-size: 40px;
+  font-family: "Montez", cursive;
+  color: #fcda9a;
+}
+.title-1 p {
+  font-size: 50px;
+  font-family: "Suranna", serif;
+  color: white;
+}
+.title-1 img {
+  width: 30%;
+  height: 30%;
+}
+.contact2 h1 {
+  margin-top: 120px;
+}
+.our-Social {
+  margin-top: 60px;
+}
+/* .social-text {
+  margin-top: 60px;
+} */
+.contact2 h1,
+.our-Social {
+  color: black;
+
+  text-align: center;
+  font-size: 60px;
+  font-family: "Montez", cursive;
+}
+.con-text {
+  margin-top: 25px;
+}
+.contact2 h3 {
+  font-size: 25px;
+  font-family: "Suranna", serif;
+  color: black;
+  text-align: center;
+}
+.contact-Img,
+.phno,
+.email {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+.contact-Img img,
+.phno img,
+.email img {
+  margin-left: 650px;
+}
+.contact-Img p,
+.c-phno p,
+.c-email p {
+  color: black;
+  font-size: 23px;
+  margin-left: 60px;
+}
+.social-icon {
+  margin-top: 40px;
+  margin-left: 690px;
+}
+.social-icon img {
+  margin-right: 20px;
+}
+.end-text {
+  margin-top: 70px;
+}
+.end-text h1 {
+  color: black;
+
+  text-align: center;
+  font-size: 40px;
+  font-family: "Montez", cursive;
+}
+.STL {
+  margin-top: 15px;
+  width: 420px;
+  border: 1px solid black;
+  margin-left: 550px;
+}
+.STL2 {
+  margin-top: 14px;
+  width: 250px;
+  border: 1px solid black;
+  margin-left: 640px;
+}
+.STL3 {
+  margin-top: 18px;
+  width: 300px;
+  border: 1px solid black;
+  margin-left: 600px;
+  margin-bottom: 18px;
+}
+@media screen and (max-width: 600px) {
+  .logo {
+    /* margin-top: 10px; */
+    width: 100px;
+    height: 100px;
+    margin-right: 380px;
+    /* margin-left: 20px; */
+  }
+  nav {
+    flex-direction: column;
+    position: sticky;
+    /* width: 100%; */
+    top: 0;
+    overflow: visible;
+    z-index: 0;
+  }
+  .nav-list3 {
+    display: none;
+  }
+  #item1 {
+    margin-top: 210px;
+  }
+  #item2 {
+    margin-top: 10px;
+  }
+
+  .nav-list3 {
+    margin-right: 200px;
+    background-color: gray;
+  }
+  .nav-list3 .nav-items {
+    display: block;
+    text-align: center;
+    width: 500px;
+  }
+
+  .active {
+    display: block;
+  }
+
+  nav.scrolled {
+    background: black;
+    /* height: 50px;
+    width: 100px; */
+  }
+  .menu {
+    display: block;
+    position: absolute;
+    right: 83px;
+    top: 40px;
+    border: 2px solid #fff;
+    padding: 8px 8px 6px 8px;
+    /*  */
+  }
+
+  .contact {
+    background-size: 100% 100%;
+    width: 500px;
+    height: 500px;
+  }
+  .title-1 {
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+  @keyframes example {
+    0% {
+      padding-top: 70px;
+    }
+    100% {
+      padding-top: 50px;
+    }
+  }
+  .title-1 h1 {
+    padding-top: 10px;
+    font-size: 30px;
+    margin-right: 50px;
+  }
+  .title-1 p {
+    margin-left: 10px;
+    margin-right: 50px;
+    font-size: 33px;
+  }
+  .title-1 img {
+    width: 50%;
+    height: 50%;
+    margin-right: 50px;
+  }
+  .contact2 h1 {
+    margin-top: 80px;
+  }
+  .our-Social {
+    margin-top: 30px;
+  }
+  .contact2 h1,
+  .our-Social {
+    font-size: 37px;
+  }
+  .STL {
+    margin-top: 15px;
+    width: 310px;
+    border: 1px solid black;
+    margin-left: 50px;
+  }
+  .con-text {
+    margin: 10px 20px;
+  }
+  .contact2 h3 {
+    font-size: 20px;
+  }
+  .contact-Img img,
+  .phno img,
+  .email img {
+    margin-left: 80px;
+  }
+  .contact-Img p,
+  .c-phno p,
+  .c-email p {
+    font-size: 18px;
+    margin-left: 40px;
+  }
+  .social-icon {
+    margin-top: 40px;
+    margin-left: 150px;
+  }
+  .social-icon img {
+    margin-right: 20px;
+  }
+  .end-text {
+    margin-top: 70px;
+  }
+  .end-text h1 {
+    font-size: 35px;
+    margin: 0 13px;
+  }
+  .STL2 {
+    margin-top: 14px;
+    width: 160px;
+    border: 1px solid black;
+    margin-left: 130px;
+  }
+  .STL3 {
+    margin-top: 18px;
+    width: 220px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+  }
+}
